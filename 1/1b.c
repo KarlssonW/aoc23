@@ -3,7 +3,6 @@
 #include <string.h>
 #include <ctype.h>
 
-// checks if the input string is a valid written digit from 1-9
 int checkWrittenDigits(char *p) {
     if(strncmp(p, "one", 3) == 0) {
         return 1;
